@@ -1,3 +1,37 @@
-body {
-
+#barreHorizontalMenuPrincipal {
+	background-color:red;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
+
+#logoMenuPrincipal {
+	width:10%;
+	height:5%;
+}
+
+
+#menuPrincipal {
+ display: flex;
+ flex-direction: row;
+ margin: 0;
+ padding: 0;
+}
+
+#menuPrincipal .boutonMenuPrincipal {
+ 	list-style: none;
+    text-align: center;
+     margin: 2px;
+ 	 padding: 2px;
+ }
+ 
+#menuPrincipal .boutonMenuPrincipal a {
+ display: block;
+}
+ 
+#menuPrincipal .boutonMenuPrincipal a:hover {
+ background-color:#D3D3D3;
+ } 
+ 
