@@ -1,37 +1,59 @@
-#barreHorizontalMenuPrincipal {
-	background-color:red;
-	width:100%;
-	display: flex;
-	flex-direction: row;
-    margin: 0;
-    padding: 0;
-}
-
-#logoMenuPrincipal {
-	width:10%;
+#principalMenu {
+	background-color:black;
 	height:5%;
+	
+	/* Property for flexbox*/
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	align-content:center;
 }
 
-
-#menuPrincipal {
- display: flex;
- flex-direction: row;
- margin: 0;
- padding: 0;
+#principalMenuLeftSide{
+	height:100%
+	display:block;
 }
 
-#menuPrincipal .boutonMenuPrincipal {
- 	list-style: none;
-    text-align: center;
-     margin: 2px;
- 	 padding: 2px;
- }
- 
-#menuPrincipal .boutonMenuPrincipal a {
- display: block;
+#principalMenuCompanyLogo{
+	float:left;
+	width:140px;
+	height:80px;
 }
- 
-#menuPrincipal .boutonMenuPrincipal a:hover {
- background-color:#D3D3D3;
- } 
- 
+
+#principalMenuCompanyName {
+	float:left;
+	color:white;
+	margin-top:12%;
+	font: bold 16px Arial;
+	vertical-align:center;
+}
+
+#principalMenuMiddleSpace {
+	/* Property for flexbox*/
+	flex-grow:4;
+}
+
+.principalMenuButton {
+	color:white;
+	height:80px;
+	display:inline-block;
+	padding: 25% 30px 0px; 30px;
+	text-decoration: none;
+	font: bold 14px Arial;
+}
+
+.principalMenuButton:hover{
+	background-color:white;
+	color:black;
+}
+
+#principalMenuRightSpace {
+	height:100px;
+	background-color:black;
+	width: 1px;
+	
+	/* Property for flexbox*/
+	flex-grow:0.1;
+}
