@@ -1,4 +1,4 @@
-#principalMenu {
+#mainMenu {
 	background-color:black;
 	height:5%;
 	
@@ -11,18 +11,18 @@
 	align-content:center;
 }
 
-#principalMenuLeftSide{
+#mainMenuLeftSide{
 	height:100%
 	display:block;
 }
 
-#principalMenuCompanyLogo{
+#mainMenuCompanyLogo{
 	float:left;
 	width:140px;
 	height:80px;
 }
 
-#principalMenuCompanyName {
+#mainMenuCompanyName {
 	float:left;
 	color:white;
 	margin-top:12%;
@@ -30,12 +30,12 @@
 	vertical-align:center;
 }
 
-#principalMenuMiddleSpace {
+#mainMenuMiddleSpace {
 	/* Property for flexbox*/
 	flex-grow:4;
 }
 
-.principalMenuButton {
+.mainMenuButton {
 	color:white;
 	height:80px;
 	display:inline-block;
@@ -44,12 +44,12 @@
 	font: bold 14px Arial;
 }
 
-.principalMenuButton:hover{
+.mainMenuButton:hover{
 	background-color:white;
 	color:black;
 }
 
-#principalMenuRightSpace {
+#mainMenuRightSpace {
 	height:100px;
 	background-color:black;
 	width: 1px;
