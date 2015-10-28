@@ -1,0 +1,13 @@
+#buttonsSection {
+	margin-top:5%;
+	text-align: center;
+}
+
+.tableLabel{
+	vertical-align:top;
+}
+
+table {
+	border-collapse: separate; border-spacing: 15px;
+} 
+
