@@ -1,44 +1,70 @@
-#mainMenu {
-	background-color:black;
-	height:5%;
-	display:flex;
-}
-
-#mainMenuCompanyLogo{
-	float:left;
-	width:140px;
-	height:80px;
-}
-
-#mainMenuCompanyName {
-	float:left;
-	color:white;
-	font: bold 16px Arial;
-	vertical-align:center;
-}
-
-.mainMenuButton {
-	color:white;
+body{
 	height:100%;
-	width:100%;
-	display:inline-block;
-	text-decoration: none;
-	font: bold 14px Arial;
+	position:absolute;
 }
 
-.mainMenuButton:hover{
-	background-color:red;
-	color:black;
-}
+#menu {display:flex;}
 
-.menuItem {
+#menu a {
+	height: 100px;
 	flex-grow:1;
+	
+	text-decoration:none;
+	background: #2B2B2B;
+	color: white;
+	text-align: center;
+	line-height:100px;
+	font-weight:600;
 }
 
-.menuItem:nth-child(1){
-	white-space:nowrap;
+#menu a:hover {
+	background:white;
+	color:#2B2B2B;	
 }
 
-.menuItem:nth-child(2){
-	flex-grow:3;
+#menu img{
+	height: 100%;
+}
+
+#menu a:hover:nth-child(1){
+	background:#2B2B2B;
+}
+
+#menu a:nth-child(2){
+	flex-grow:4;
+	pointer-events: none;
+    cursor: default;
+}
+
+#list {
+	float:left;
+	margin-top:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	width:18%;
+	background: #FF8F00;
+	color:white;
+}
+
+#list a{
+	text-decoration:none;
+	color:white;
+}
+
+#list a:hover{
+	background: #3C7DC4;
+}
+
+
+#frame{
+float:right;
+width:78%;
+height:70%;
+border:0;
+}
+
+footer{
+	float:right;
+	bottom:0px;
+	
 }
