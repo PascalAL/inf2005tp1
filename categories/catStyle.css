@@ -1,3 +1,6 @@
+div.head {
+	margin-left: 40px;
+}
 
 figure {
 	display: block;
@@ -53,5 +56,6 @@ a.hautBas {
 	display: block;
 	float: right;
 	margin-right: 40px;
+	font-size: 80%;
 	
 }
