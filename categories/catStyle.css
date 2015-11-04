@@ -1,3 +1,46 @@
-body {
 
+figure {
+	display: block;
+	z-index: -1;	
+}
+figure > img {
+	max-width: 300px;
+	float: left;
+	margin-right: 15px;
+}
+
+footer {
+	z-index: 2
+	position: absolute;
+	top: 100px;
+}
+
+
+div > header {
+	display:block;
+	clear: left;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+div > footer {
+	display: block;
+	clear: left;
+	margin-left: 40px;
+	
+}
+
+
+
+footer > h5 {
+	margin-left: 315px;
+	position:relative;
+	top: -50px;
+	
+}
+
+
+
+h5 {
+	margin-top: -70px;
 }
