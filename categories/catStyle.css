@@ -44,3 +44,14 @@ footer > h5 {
 h5 {
 	margin-top: -70px;
 }
+
+figcaption {
+	display: block;
+	margin-bottom: 10px;
+}
+a.hautBas {
+	display: block;
+	float: right;
+	margin-right: 40px;
+	
+}
