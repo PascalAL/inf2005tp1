@@ -2,7 +2,8 @@ div > img {
 	max-width: 300px;
 	float: left;
 	margin-right: 15px;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
+	min-height: 200px;	
 }
 
 div.citiesList {
@@ -12,9 +13,11 @@ div.citiesList {
 
 div.inclusions {	
 	clear: left;
+	min-height: 200px;
 }
 
 header {
+	margin-top: -15px;
 	margin-bottom: -15px;	
 }
 
