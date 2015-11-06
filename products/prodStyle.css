@@ -1,3 +1,12 @@
+@font-face {
+	font-family: barmeno;
+	src: url(barmeno_regular.otf);	
+}
+
+body {
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
 div > img {
 	max-width: 300px;
 	float: left;
@@ -7,7 +16,8 @@ div > img {
 }
 
 div.citiesList {
-	color: blue;
+	font-family: barmeno;
+	color: #FFFFFF;
 	margin-top: 40px;
 }
 
@@ -35,15 +45,19 @@ h6 {
 
 footer {
 	margin-left: 20px;
-	margin-top: -250px;	
+	margin-top: -275px;	
 }
 
 p.price {
-	color: green;	
+	color: #634271;
+	font-weight: bold;
+	font-size: 175%;	
 }
 
 span.taxes {
-	color: black;	
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 50%;	
 }
 
 
