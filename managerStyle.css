@@ -1,0 +1,15 @@
+img {
+	display: block;
+	float: left;
+	max-width: 300px;
+	margin-right: 40px;
+}
+
+div {
+	display: block;
+	float: left;
+}
+
+h2 {
+	text-align: right;
+}

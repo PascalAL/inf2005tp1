@@ -1,3 +1,8 @@
+@font-face {
+	font-family: barmeno;
+	src: url(barmeno_regular.otf);	
+}
+
 body{
 	height:100%;
 	position:absolute;
@@ -8,6 +13,7 @@ body{
 #menu a {
 	height: 100px;
 	flex-grow:1;
+	font-family: barmeno;
 	
 	text-decoration:none;
 	background: #2B2B2B;
