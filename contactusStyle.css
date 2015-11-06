@@ -1,0 +1,11 @@
+#contactInfo{
+	float:left;
+	display:inline;
+	margin-right:25px;
+	margin-bottom:25px;
+}
+
+#contactLogo{
+	float:left;
+	display:inline;
+}
