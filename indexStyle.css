@@ -4,12 +4,13 @@
 }
 
 body{
+	background-color: #2D2D2D;
 	height:100%;
 	width: 100%;
 	position:absolute;
 }
 
-#menu {
+#menu {	
 	display:flex;
 }
 
@@ -19,7 +20,7 @@ body{
 	font-family: barmeno;
 	
 	text-decoration:none;
-	background: #2B2B2B;
+	background: #000000;
 	color: white;
 	text-align: center;
 	line-height:100px;
@@ -27,8 +28,8 @@ body{
 }
 
 #menu a:hover {
-	background:white;
-	color:#2B2B2B;	
+	background:#634271;
+	
 }
 
 #menu img{
@@ -36,7 +37,7 @@ body{
 }
 
 #menu a:hover:nth-child(1){
-	background:#2B2B2B;
+	background:#000000;
 }
 
 #menu a:nth-child(2){
@@ -45,29 +46,41 @@ body{
     cursor: default;
 }
 
+div > h3 {
+	font-family: barmeno;
+	background: #FFFFFF;
+	color: #000000;
+	padding: 10px 2px;
+	text-transform: uppercase;	
+	font-size: 85%;
+}
+
 #list {
+	font-family:  barmeno;
+	line-height: 150%;
 	float:left;
 	margin-top:10px;
 	padding-left:10px;
 	padding-bottom:10px;
-	width:18%;
-	background: #FF8F00;
+	width:19%;
+	background: #000000;
 	color:white;
 }
 
-#list a{
+#list a{	
 	text-decoration:none;
+	margin-bottom: 0px;
 	color:white;
 }
 
 #list a:hover{
-	background: #3C7DC4;
+	background: #634271;
 }
 
 
 #frame{
 float:right;
-width:78%;
+width:77%;
 height:70%;
 border:0;
 }
@@ -82,11 +95,17 @@ footer{
 }
 
 footer a{
+	font-family: barmeno;
 	color:white;
+	
+}
+
+footer a:hover {
+	background-color: #634271;
 }
 footer div{
 	padding:10px;
 	padding-bottom:20px;
-	background:#2B2B2B;
+	background:#000000;
 	color:white;
 }
