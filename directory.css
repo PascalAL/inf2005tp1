@@ -4,6 +4,7 @@ body{
 	height:100%;
 	width: 100%;
 	position:absolute;
+	font-family:sans-serif;
 }
 
 #menu {
@@ -56,13 +57,23 @@ body{
 	justify-content:space-around;
 }
 
-#centre a{
-	color:black;
+#centre a:hover{
+background-color: #634271;
 }
 
 #centre table{
-	padding:5%;
-	color:black;
+	padding:3%;
+	background-color:black;
+	border-spacing: 20px;
+    border-collapse:separate;
+    text-align:center;
+}
+
+tbody:before {
+    content: "-";
+    display: block;
+    line-height: 1em;
+    color: transparent;
 }
 
 footer{

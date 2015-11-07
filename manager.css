@@ -4,6 +4,7 @@
 	font-family: pecita;
 	src: url(Pecita.otf);	
 }
+body{font-family:sans-serif}
 
 img {
 	display: block;
@@ -15,6 +16,10 @@ img {
 div {
 	display: block;
 	float: left;
+}
+
+#firstParagraph{
+	margin-top: -3px;
 }
 
 #signature{

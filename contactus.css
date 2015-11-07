@@ -1,5 +1,17 @@
 @import url(design.css);
 
+body{
+	font-family: sans-serif;
+}
+
+#phone{
+	font-family:barmeno;
+}
+
+a:hover{
+	background-color: #634271;
+}
+
 #contactInfo{
 	float:left;
 	display:inline;
