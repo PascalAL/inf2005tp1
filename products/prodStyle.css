@@ -44,20 +44,24 @@ h6 {
 }
 
 footer {
-	margin-left: 20px;
+	margin-left: 315px;
 	margin-top: -275px;	
 }
 
-p.price {
+.price {
 	color: #634271;
+	background-color: white;
 	font-weight: bold;
 	font-size: 175%;	
+	width: 90px;
+	display: inline;
+		
 }
 
 span.taxes {
 	color: #FFFFFF;
 	font-weight: normal;
-	font-size: 50%;	
+	font-size: 90%;	
 }
 
 
