@@ -9,6 +9,7 @@ body {
 }
 div.head {
 	margin-left: 40px;
+	margin-top: -8px;
 }
 div.linkSections {
 	background-color: #000000;
