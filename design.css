@@ -1,3 +1,5 @@
+@import url(design.css);
+
 @font-face {
 	font-family: barmeno;
 	src: url(barmeno_regular.otf);	
