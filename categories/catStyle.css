@@ -1,5 +1,30 @@
+@font-face {
+	font-family: barmeno;
+	src: url(barmeno_regular.otf);	
+}
+
+body {
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
 div.head {
 	margin-left: 40px;
+}
+div.linkSections {
+	background-color: #000000;
+	font-family: barmeno;
+	padding: 10px;
+	line-height: 130%;
+}
+
+div > a {
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+div > a:hover {
+	background-color: #634271;
 }
 
 figure {
@@ -24,6 +49,7 @@ div > header {
 	clear: left;
 	margin-left: 40px;
 	margin-top: 40px;
+	font-family: sans-serif
 }
 
 div > footer {
@@ -45,17 +71,39 @@ footer > h5 {
 
 
 h5 {
+	font-family: barmeno;
+	font-weight: bold;
+	font-size: 130%;
 	margin-top: -70px;
+	color: #634271;
+	background-color: #FFFFFF;
+	width: 80px;
+	text-align: center;
+	
+}
+
+h4 {
+	text-transform: uppercase;
+	font-family: sans-serif;
+
 }
 
 figcaption {
 	display: block;
+	width: 300px;
 	margin-bottom: 10px;
+	background-color:#000000;
+	font-family: barmeno;
 }
-a.hautBas {
+.hautBas {
+	text-decoration: none;
+	color: #FFFFFF;
 	display: block;
 	float: right;
 	margin-right: 40px;
-	font-size: 80%;
-	
+	font-size: 80%;	
+}
+
+.hautBas:hover {
+	background-color: #634271;
 }
