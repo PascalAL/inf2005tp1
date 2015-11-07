@@ -79,6 +79,11 @@ border:0;
 margin-top:10px;
 }
 
+#centre{
+	display:flex;
+	height:100%;
+}
+
 footer{
 	width:100%;
 	position:relative;
@@ -86,15 +91,15 @@ footer{
 	display:flex;
 	justify-content:space-around;
 	text-decoration:none;
-	
-  margin-top: 45px;
-  height: 45px;
-  clear:both;
+  	margin-top: 45px;
+  	height: 45px;
+  	clear:both;
 }
 
 footer a{
 	font-family: barmeno;
 	color:white;
+	text-decoration:underline;
 }
 
 footer a:hover {
@@ -109,9 +114,4 @@ footer div{
 	background:#000000;
 	color:white;
 	font-family: barmeno;
-}
-
-#centre{
-	display:flex;
-	height:100%;
 }

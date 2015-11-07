@@ -16,7 +16,7 @@ body{
 	font-family: barmeno;
 	font-size:20px;
 	text-decoration:none;
-	background: #2B2B2B;
+	background: #000000;
 	color: white;
 	text-align: center;
 	line-height:100px;
@@ -33,7 +33,7 @@ body{
 }
 
 #menu a:nth-child(1){
-	background:#2B2B2B;
+	background:#000000;
 }
 
 #menu a:nth-child(2), a:nth-child(3){
@@ -75,6 +75,7 @@ footer{
 footer a{
 	font-family: barmeno;
 	color:white;
+	text-decoration:underline;
 }
 
 footer a:hover {
