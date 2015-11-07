@@ -1,9 +1,10 @@
-@import url(design.css);
+@import url(../general/design.css);
 
 @font-face {
 	font-family: pecita;
-	src: url(Pecita.otf);	
+	src: url(../../fonts/Pecita.otf);	
 }
+
 body{font-family:sans-serif}
 
 img {

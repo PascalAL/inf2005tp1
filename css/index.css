@@ -1,13 +1,12 @@
-@import url(design.css);
+@import url(general/design.css);
 
 body{
 	height:100%;
 	width: 100%;
 	position:absolute;
-	font-family:sans-serif;
 }
 
-#menu {
+#menu {	
 	display:flex;
 }
 
@@ -15,7 +14,7 @@ body{
 	height: 100px;
 	flex-grow:1;
 	font-family: barmeno;
-	font-size:20px;
+	
 	text-decoration:none;
 	background: #000000;
 	color: white;
@@ -25,55 +24,64 @@ body{
 }
 
 #menu a:hover {
-	background:white;
-	color:#2B2B2B;	
+	background:#634271;
+	
 }
 
 #menu img{
 	height: 100%;
 }
 
-#menu a:nth-child(1){
-	background: #000000;;
+#menu a:hover:nth-child(1){
+	background:#000000;
 }
 
-#menu a:nth-child(2), a:nth-child(3){
+#menu a:nth-child(2){
+	flex-grow:4;
 	pointer-events: none;
     cursor: default;
 }
 
-#menu a:nth-child(3){
-	flex-grow:6;
+div > h3 {
+	font-family: barmeno;
+	background: #FFFFFF;
+	color: #000000;
+	padding: 10px 2px;
+	text-transform: uppercase;	
+	font-size: 85%;
+}
+
+#list {
+	font-family:  barmeno;
+	line-height: 150%;
+	margin-top:10px;
+	padding:10px;
+	width:19%;
+	background: #000000;
+	color:white;
+}
+
+#list a{	
+	text-decoration:none;
+	margin-bottom: 0px;
+	color:white;
+}
+
+#list a:hover{
+	background: #634271;
+}
+
+
+#frame{
+width:77%;
+height:100%;
+border:0;
+margin-top:10px;
 }
 
 #centre{
-	width:100%;
-	height:100%;
 	display:flex;
-	font-size:20px;
-	margin-top:2%;
-	margin-bottom:2%;
-	vertical-align:center;
-	justify-content:space-around;
-}
-
-#centre a:hover{
-background-color: #634271;
-}
-
-#centre table{
-	padding:3%;
-	background-color:black;
-	border-spacing: 20px;
-    border-collapse:separate;
-    text-align:center;
-}
-
-tbody:before {
-    content: "-";
-    display: block;
-    line-height: 1em;
-    color: transparent;
+	height:100%;
 }
 
 footer{

@@ -1,6 +1,6 @@
 @font-face {
 	font-family: barmeno;
-	src: url(barmeno_regular.otf);	
+	src: url(../../fonts/barmeno_regular.otf);	
 }
 
 body {
@@ -68,8 +68,6 @@ footer > h5 {
 	top: -50px;
 	
 }
-
-
 
 h5 {
 	font-family: barmeno;
