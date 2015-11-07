@@ -1,3 +1,8 @@
+@font-face {
+	font-family: pecita;
+	src: url(Pecita.otf);	
+}
+
 img {
 	display: block;
 	float: left;
@@ -10,6 +15,9 @@ div {
 	float: left;
 }
 
-h2 {
+#signature{
+	width:100%;
+	font-family:pecita;
 	text-align: right;
+	font-size:25px;
 }

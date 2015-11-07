@@ -1,0 +1,14 @@
+@font-face {
+	font-family: barmeno;
+	src: url(barmeno_regular.otf);	
+}
+
+body{
+	background-color: #2D2D2D;
+	color:white;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}

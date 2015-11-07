@@ -1,10 +1,4 @@
-@font-face {
-	font-family: barmeno;
-	src: url(barmeno_regular.otf);	
-}
-
 body{
-	background-color: #2D2D2D;
 	height:100%;
 	width: 100%;
 	position:absolute;
@@ -58,10 +52,8 @@ div > h3 {
 #list {
 	font-family:  barmeno;
 	line-height: 150%;
-	float:left;
 	margin-top:10px;
-	padding-left:10px;
-	padding-bottom:10px;
+	padding:10px;
 	width:19%;
 	background: #000000;
 	color:white;
@@ -79,33 +71,45 @@ div > h3 {
 
 
 #frame{
-float:right;
 width:77%;
-height:70%;
+height:100%;
 border:0;
+margin-top:10px;
 }
 
 footer{
 	width:100%;
-	position:absolute;
+	position:relative;
 	bottom:0;
 	display:flex;
 	justify-content:space-around;
 	text-decoration:none;
+	
+  margin-top: 45px;
+  height: 45px;
+  clear:both;
 }
 
 footer a{
 	font-family: barmeno;
 	color:white;
-	
 }
 
 footer a:hover {
 	background-color: #634271;
 }
+
 footer div{
-	padding:10px;
+	width:100%;
+	text-align:center;
+	padding-top:10px;
 	padding-bottom:20px;
 	background:#000000;
 	color:white;
+	font-family: barmeno;
+}
+
+#centre{
+	display:flex;
+	height:100%;
 }

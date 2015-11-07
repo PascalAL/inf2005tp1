@@ -1,8 +1,3 @@
-@font-face {
-	font-family: barmeno;
-	src: url(barmeno_regular.otf);	
-}
-
 body{
 	height:100%;
 	width: 100%;
@@ -69,10 +64,19 @@ footer{
 	display:flex;
 	justify-content:space-around;
 	text-decoration:none;
+	
+  margin-top: 45px;
+  height: 45px;
+  clear:both;
 }
 
 footer a{
+	font-family: barmeno;
 	color:white;
+}
+
+footer a:hover {
+	background-color: #634271;
 }
 
 footer div{
@@ -80,10 +84,10 @@ footer div{
 	text-align:center;
 	padding-top:10px;
 	padding-bottom:20px;
-	background:#2B2B2B;
+	background:#000000;
 	color:white;
+	font-family: barmeno;
 }
-
 
 
 
