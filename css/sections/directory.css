@@ -1,10 +1,15 @@
-@import url(../general/design.css);
+@font-face {
+	font-family: barmeno;
+	src: url(../../fonts/barmeno_regular.otf);	
+}
 
 body{
 	height:100%;
 	width: 100%;
 	position:absolute;
 	font-family:sans-serif;
+	color: white;
+	background-color:#2D2D2D
 }
 
 #menu {
@@ -42,6 +47,24 @@ body{
     cursor: default;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+table {
+	color: black;
+	
+}
+
+td {
+	padding: 0px;
+}
+
+th {
+	color: white;
+}
+
+
 #menu a:nth-child(3){
 	flex-grow:6;
 }
@@ -59,6 +82,7 @@ body{
 
 #centre a:hover{
 background-color: #634271;
+color: white;
 }
 
 #centre table{
@@ -68,6 +92,16 @@ background-color: #634271;
     border-collapse:separate;
     text-align:center;
 }
+
+table.dataTable tbody td {
+    padding: 0px;
+}
+
+
+.dataTables_paginate {
+	font-size:0.8em;	
+}
+
 
 tbody:before {
     content: "-";
