@@ -29,6 +29,15 @@ body{
 	font-weight:600;
 }
 
+label {
+	color: white;
+}
+
+.dataTables_wrapper .dataTables_info {
+	color: white;
+}
+
+
 #menu a:hover {
 	background:white;
 	color:#2B2B2B;	
@@ -78,6 +87,7 @@ th {
 	margin-bottom:2%;
 	vertical-align:center;
 	justify-content:space-around;
+	
 }
 
 #centre a:hover{
