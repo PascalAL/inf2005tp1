@@ -41,6 +41,10 @@ body{
     cursor: default;
 }
 
+#last a:hover {
+	cursor: hand;
+}
+
 div > h3 {
 	font-family: barmeno;
 	background: #FFFFFF;
