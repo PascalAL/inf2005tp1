@@ -5,10 +5,11 @@
 		<title>Accueil</title>
 		<meta name="author" content="Pascal Aubé-Larouche et Jean Turgeon">
 		<link rel="stylesheet" type="text/css" href="../css/index.css">
-		<script type="text/javascript" src="../JS/jquery-2.1.4.min.js"></script> 
+		<script src="../javascript/jquery/jquery-2.1.4.js"></script>
+		<script src="../javascript/connection.js"></script>
 	</head>
 	
-	<body>
+	<body onload="infoConnection();">
 			<div id="menu">
 
 					<svg  class="item" heigth="100px">
@@ -31,7 +32,7 @@
 				<a href="manager.html" class="item" target="mainIframe">Directeur</a>
 				<a href="contactus.html" class="item" target="mainIframe">Contact</a>
 				<a href="directory.html" class="item" target="_self">Bottin</a>
-				<a href="connection.html" class="item" target="_self">Connexion</a>
+				<a id="last" onclick="session()" class="item">Connexion</a>
 			</div>
 			<div id="centre">
 				<div id="list">
