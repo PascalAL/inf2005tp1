@@ -7,9 +7,13 @@ body{
 }
 
 svg {
-	position: relative;
 	fill:#FFFFFF;
-	top: 1.5em;
+}
+
+
+
+#mainLogoLink:hover{
+	fill:#634271;
 }
 
 #menu {	
@@ -31,7 +35,6 @@ svg {
 
 #menu a:hover {
 	background:#634271;
-	
 }
 
 #menu img{
