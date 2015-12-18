@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>Connexion</title>
 		<link rel="stylesheet" type="text/css" href="../css/sections/forms.css">
+		<script src="../javascript/jquery/jquery-2.1.4.js"></script>
+		<script src="../javascript/forms.js"></script>
 	</head>
 	
 	<body>
@@ -14,19 +16,64 @@
 		</div>
 		<div id="centre"><div>
 			<h4>Ajouter un produit</h4>
-			<form id="productForm" action="dbProducts.html">
+			<form id="productForm" action="dbProducts.html" onsubmit="return submitProduct()">
 			<table>
 				<tr>
+					<td class="tableLabel">Fournisseur:</td>
+					<td><input type="text" size="50" id="productSupplier" required="true"></td>
+				</tr>
+				<tr>
+					<td class="tableLabel">Région du monde:</td>
+					<td><select type="text" id="productRegion" required="true"> 
+  						<option value="">Sélectionner...</option>
+  						<option value="africa">Afrique</option>
+  						<option value="asia">Asie</option>
+  						<option value="europe">Europe</option>
+  						<option value="middleEast">Moyen-Orient</option>
+  						<option value="southAmerica">Amérique du sud</option>
+  						<option value="southPacific">Pacifique du sud</option>
+					</select></td>
+				</tr>
+				<tr>
 					<td class="tableLabel">Nom:</td>
-					<td><input type="text" size="50" name="productName"></td>
+					<td><input type="text" size="50" id="productName" required="true"></td>
 				</tr>
 				<tr>
 					<td class="tableLabel">Description:</td>
-					<td><textarea rows="4" cols="50" name="productDescription">Entrer une description ici...</textarea></td>
+					<td><textarea rows="4" cols="50" id="productDescription" required="true"></textarea></td>
+				</tr>
+				<tr>
+					<td class="tableLabel">Prix:</td>
+					<td><input type="text" size="10" id="productPrice" required="true" pattern="*[0-9]"></td>
 				</tr>
 				<tr>
 					<td class="tableLabel">Image:</td>
-					<td><input type="file" name="productImage"  allow="text/*"></td>
+					<td><select type="text" id="productImage" required="true"> 
+  						<option value="">Sélectionner...</option>
+  						<option value="../../images/categoriesImages/Africa/capeTown.jpg">capeTown.jpg</option>
+  						<option value="../../images/categoriesImages/Africa/kilimanjaro.jpg">kilimanjaro.jpg</option>
+  						<option value="../../images/categoriesImages/Africa/lankanfushi.jpg">lankanfushi</option>
+  						<option value="../../images/categoriesImages/Africa/lemur.jpg">lemur.jpg</option>
+  						<option value="../../images/categoriesImages/Africa/mauritius-summer.jpg">mauritus-summer.jpg</option>
+  						<option value="../../images/categoriesImages/Asia/bali.jpg">bali.jpg</option>
+  						<option value="../../images/categoriesImages/Asia/cambodia-angkor-wat.jpg">cambodia-angkor-wat.jpg</option>
+  						<option value="../../images/categoriesImages/Asia/china.jpg">china.jpg</option>
+  						<option value="../../images/categoriesImages/Asia/phuket-thailand.jpg">phuket-thailand.jpg</option>
+  						<option value="../../images/categoriesImages/Asia/singapore.jpg">singapore.jpg</option>
+  						<option value="../../images/categoriesImages/Europe/copenhagen.jpg">copenhagen.jpg</option>
+  						<option value="../../images/categoriesImages/Europe/istanbul.jpg">istanbul.jpg</option>
+  						<option value="../../images/categoriesImages/Europe/london.jpg">london.jpg</option>
+  						<option value="../../images/categoriesImages/Europe/provence.jpg">provence.jpg</option>
+  						<option value="../../images/categoriesImages/Europe/versailles.jpg">versailles.jpg</option>
+  						<option value="../../images/categoriesImages/MiddleEast/bhutan.jpg">bhutan.jpg</option>
+  						<option value="../../images/categoriesImages/MiddleEast/dubai.jpg">dubai.jpg</option>
+  						<option value="../../images/categoriesImages/MiddleEast/nepal.jpg">nepal.jpg</option>
+  						<option value="../../images/categoriesImages/SouthAmerica/amazonas.jpg">amazonas.jpg</option>
+  						<option value="../../images/categoriesImages/SouthAmerica/argentine.jpg">argentine.jpg</option>
+  						<option value="../../images/categoriesImages/SouthPacific/bora-bora.jpg">bora-bora.jpg</option>
+  						<option value="../../images/categoriesImages/SouthPacific/new-zealand.jpg">new-zealand.jpg</option>
+  						<option value="../../images/categoriesImages/SouthPacific/sydney.jpg">sydney.jpg</option>
+					</select></td>
 				</tr>
 				<tr rowspan="2">
 					<td colspan="2">

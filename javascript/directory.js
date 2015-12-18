@@ -1,26 +1,26 @@
 $(document).ready(function() {
 	$('table').dataTable({"language": {
     "decimal":        "",
-    "emptyTable":     "No data available in table",
-    "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
-    "infoEmpty":      "Showing 0 to 0 of 0 entries",
+    "emptyTable":     "Aucun employé enregistré",
+    "info":           "Employés _START_ à _END_ sur _TOTAL_ employés",
+    "infoEmpty":      "Employés 0 à 0 sur 0 employés",
     "infoFiltered":   "(filtered from _MAX_ total entries)",
     "infoPostFix":    "",
     "thousands":      ",",
-    "lengthMenu":     "Show _MENU_ entries",
-    "loadingRecords": "Loading...",
-    "processing":     "Processing...",
-    "search":         "Search:",
-    "zeroRecords":    "No matching records found",
+    "lengthMenu":     "Présenter _MENU_ employées",
+    "loadingRecords": "Chargement...",
+    "processing":     "En traitement...",
+    "search":         "Chercher:",
+    "zeroRecords":    "Aucune entrée correspondante trouvée",
     "paginate": {
-        "first":      "First",
-        "last":       "Last",
-        "next":       "Next",
+        "first":      "Premier",
+        "last":       "Dernier",
+        "next":       "Suivant",
         "previous":   "Précédent"
     },
     "aria": {
-        "sortAscending":  ": activate to sort column ascending",
-        "sortDescending": ": activate to sort column descending"
+        "sortAscending":  ": Trier en ordre croissant",
+        "sortDescending": ": Trier en ordre décroissant"
     }
 }});
 });
