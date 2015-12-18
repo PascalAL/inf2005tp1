@@ -12,3 +12,11 @@ a{
 	text-decoration:none;
 	color:white;
 }
+
+svg {
+	fill:#FFFFFF;
+}
+
+#mainLogoLink:hover{
+	fill:#634271;
+}

@@ -6,16 +6,6 @@ body{
 	position:absolute;
 }
 
-svg {
-	fill:#FFFFFF;
-}
-
-
-
-#mainLogoLink:hover{
-	fill:#634271;
-}
-
 #menu {	
 	display:flex;
 }

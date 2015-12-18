@@ -151,3 +151,11 @@ footer div{
 	color:white;
 	font-family: barmeno;
 }
+
+svg {
+	fill:#FFFFFF;
+}
+
+#mainLogoLink:hover{
+	fill:#634271;
+}
