@@ -1,0 +1,112 @@
+@import url(../general/design.css);
+
+body{
+	height:100%;
+	width: 100%;
+	position:absolute;
+	font-family:sans-serif;
+}
+
+#menu {
+	display:flex;
+}
+
+#menu a {
+	height: 100px;
+	flex-grow:1;
+	font-family: barmeno;
+	font-size:20px;
+	text-decoration:none;
+	background: #000000;
+	color: white;
+	text-align: center;
+	line-height:100px;
+	font-weight:600;
+}
+
+#menu a:hover {
+	background:white;
+	color:#2B2B2B;	
+}
+
+#menu img{
+	height: 100%;
+}
+
+#menu a:nth-child(1){
+	background:#000000;
+}
+
+#menu a:nth-child(2), a:nth-child(3){
+	pointer-events: none;
+    cursor: default;
+}
+
+#menu a:nth-child(3){
+	flex-grow:6;
+}
+
+#centre{
+	width:100%;
+	display:flex;
+	font-size:20px;
+	margin-top:2%;
+	margin-bottom:2%;
+	vertical-align:center;
+	justify-content:space-around;
+}
+
+#centre a{
+	color:white;
+}
+
+footer{
+	width:100%;
+	position:relative;
+	bottom:0;
+	display:flex;
+	justify-content:space-around;
+	text-decoration:none;
+	
+  margin-top: 245px;
+  height: 45px;
+  clear:both;
+}
+
+footer a{
+	font-family: barmeno;
+	color:white;
+	text-decoration:underline;
+}
+
+footer a:hover {
+	background-color: #634271;
+}
+
+footer div{
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:20px;
+	background:#000000;
+	color:white;
+	font-family: barmeno;
+}
+
+
+
+
+
+#buttonsSection {
+	margin-top:5%;
+	text-align: center;
+}
+
+.tableLabel{
+	vertical-align:top;
+}
+
+table {
+	border-collapse: separate; border-spacing: 15px;
+} 
+
