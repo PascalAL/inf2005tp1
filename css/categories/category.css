@@ -11,20 +11,21 @@ div.head {
 	margin-left: 40px;
 	margin-top: -8px;
 }
-div.linkSections {
+#section {
 	background-color: #000000;
-	font-family: barmeno;
 	padding: 10px;
 	line-height: 130%;
 }
+#sectionLinks{text-transform: uppercase; margin-bottom:15px;}
+#section ul{list-style-type: none;}
 
-div > a {
+#section a {
 	text-decoration: none;
+	font-family: barmeno;
 	color: #FFFFFF;
-	
 }
 
-div > a:hover {
+#section a:hover {
 	background-color: #634271;
 }
 
