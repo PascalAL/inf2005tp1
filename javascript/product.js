@@ -1,3 +1,4 @@
 $(document).ready(function() {
-	$('img').fadeIn('slow');
+	$('img').fadeIn(1000);
 });
+
