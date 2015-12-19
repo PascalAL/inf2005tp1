@@ -1,4 +1,5 @@
 @import url(general/design.css);
+@import url(menu.css);
 
 body{
 	height:100%;
@@ -6,44 +7,6 @@ body{
 	position:absolute;
 }
 
-#menu {	
-	display:flex;
-}
-
-#menu a {
-	height: 100px;
-	flex-grow:1;
-	font-family: barmeno;
-	
-	text-decoration:none;
-	background: #000000;
-	color: white;
-	text-align: center;
-	line-height:100px;
-	font-weight:600;
-}
-
-#menu a:hover {
-	background:#634271;
-}
-
-#menu img{
-	height: 100%;	
-}
-
-#menu a:hover:nth-child(1){
-	background:#000000;
-}
-
-#menu a:nth-child(2){
-	flex-grow:4;
-	pointer-events: none;
-    cursor: default;
-}
-
-#last a:hover {
-	cursor: hand;
-}
 
 div > h3 {
 	font-family: barmeno;

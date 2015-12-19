@@ -1,10 +1,8 @@
 function session() {	/* vérifie si l'utilisateur s'est déjà authentifié*/
 	active = sessionStorage.getItem("sessionActive");
 	
-	if (active) {
-		
-		open("../html/forms.html", "_self");
-		
+	if (active) {		
+		open("../html/forms.html", "_self");		
 	} else {
 		open("../html/connection.html",  "_self");
 	}	
@@ -29,6 +27,11 @@ function validate() {	/*valide le nom d'usager et le mot de passe' */
 function infoConnection() {	  /* sauvegarde les infos d'administrateur */		
 	localStorage.setItem("password", "Inf2005");	
 	localStorage.setItem("userName", "admin");
+	
+	active = sessionStorage.getItem("sessionActive");
+	if (active = null) {
+		sessionStorage.setItem("sessionActive", false);
+	}
 }
 
 
