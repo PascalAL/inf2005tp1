@@ -110,3 +110,7 @@ table {
 	border-collapse: separate; border-spacing: 15px;
 } 
 
+#productSubmitResult, #employeeSubmitResult{
+	color:green;
+	text-align:center;
+}

@@ -59,7 +59,7 @@
 				</tr>
 				<tr>
 					<td class="tableLabel">Prix:</td>
-					<td><input type="text" size="10" id="productPrice" required="true" pattern="*[0-9]"></td>
+					<td><input type="text" size="10" id="productPrice" required="true" pattern="^[0-9]*$"></td>
 				</tr>
 				<tr>
 					<td class="tableLabel">Image:</td>
@@ -94,7 +94,13 @@
 					<td colspan="2">
 						<div id="buttonsSection">
 							<input type="submit" form="productForm" value="Soumettre">
-		 					<input type="reset" form="productForm" value="Réinitialiser">
+		 					<input id="resetProduct" type="reset" form="productForm" value="Réinitialiser">
+		 				</div>
+					</td>
+				</tr>
+				<tr rowspan="2">
+					<td colspan="2">
+						<div id="productSubmitResult">
 		 				</div>
 					</td>
 				</tr>
@@ -102,34 +108,39 @@
 			</form>
 			<HR>
 			<h4>Ajouter un employé</h4>
-			<form id="employeeForm" action="dbEmployees.html">
+			<form id="employeeForm" action="dbEmployees.html" onsubmit="return submitEmployee()">
 			<table>
 				<tr>
 					<td class="tableLabel">Nom:</td>
-					<td><input type="text" size="50"></td>
+					<td><input id="employeeLastName" type="text" size="50" required></td>
 				</tr>
 				<tr>
 					<td class="tableLabel">Prénom:</td>
-					<td><input type="text" size="50"></td>
+					<td><input id="employeeFirstName" type="text" size="50" required></td>
 				</tr>
 				<tr>
 					<td class="tableLabel">Courriel:</td>
-					<td><input type="email" size="50"></td>
+					<td><input id="employeeEmail" type="email" size="50" required></td>
 				</tr>
 				<tr>
 					<td class="tableLabel">Fonction:</td>
-					<td><input type="text" size="50"></td>
+					<td><input id="employeeFunction" type="text" size="50" required></td>
 				</tr>
 				<tr>
-					<td class="tableLabel">Photo:</td>
-					<td><input type="file" name="attachedfile"  allow="text/*"></td>
+					<td class="tableLabel">Téléphone:</td>
+					<td><input id="employeePhone" type="text" size="50" required></td>
 				</tr>
-			
 				<tr rowspan="2">
 					<td colspan="2">
 						<div id="buttonsSection">
 							<input type="submit" form="employeeForm" value="Soumettre">
-		 					<input type="reset" form="employeeForm" value="Réinitialiser">
+		 					<input id="resetEmployee" type="reset" form="employeeForm" value="Réinitialiser">
+		 				</div>
+					</td>
+				</tr>
+				<tr rowspan="2">
+					<td colspan="2">
+						<div id="employeeSubmitResult">
 		 				</div>
 					</td>
 				</tr>
