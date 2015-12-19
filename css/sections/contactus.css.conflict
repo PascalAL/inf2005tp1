@@ -1,7 +1,6 @@
 @import url(../general/design.css);
 
 body{
-	
 	position:absolute;
 	font-family:sans-serif;
 }
